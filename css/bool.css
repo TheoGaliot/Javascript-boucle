@@ -1,0 +1,21 @@
+body {
+  background-color:#FFFACD;
+  text-align: center;
+  padding-top: 15%;
+}
+
+#button {
+  background-color: #FFF0F5;
+  margin-top: 3%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+label {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  padding-bottom: 5%;
+}

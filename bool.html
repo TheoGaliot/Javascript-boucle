@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html language="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> stock</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="vendor/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet"/>
+    <link href="css/bool.css" rel="stylesheet"/>
+     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
+  </head>
+  <body>
+
+  <div id="message"></div>
+    <div>
+      <h1>Vacances ? </h1>
+    </div>
+    <div>
+      <label>Gaz éteint
+        <input class="checklist-item" type="checkbox" id="gaz" name="gaz[]"/></label><br/>
+      <label>Électricité éteinte
+        <input class="checklist-item" type="checkbox" id="electricity" name="elec[]"/></label><br/>
+      <label>Fenetres fermées
+        <input class="checklist-item" type="checkbox" id="fenetres" name="fenetres[]"/></label><br/>
+      <label> J'ai pris la clé
+        <input class="checklist-item" type="checkbox" id="clé" name="clé[]"/></label><br/>
+
+      <div>
+        <button id="button" type="submit" onclick="check()">Puis-je partir en vacances ?</button>
+      </div>
+<!--
+éléments d'interface
+
+cases à cocher
+- gaz éteint
+- électricité éteinte
+- fenêtres fermées
+- j'ai pris la clé
+
+bouton de validation avec le label "puis-je partir en vacances ? "
+
+une zone d'affichage de message
+
+éléments de code :
+- une fonction qui est appelé par le bouton de validation
+- dans cette fonction il faudra développer les sections suivantes :
+- analyse des valeurs
+- affichage du message
+
+message :
+-"vous pouvez y aller" si toutes les cases sont cochées
+-"attendez , il reste des choses à faire" si au moins une case n'est pas cochée
+-->
+
+<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bool.js"></script>
+
+  </body>
+</html>
